@@ -20,11 +20,11 @@ using namespace std;
 	void Familia::setAnimalEmb(string a){
 		this->AnimalEmb = a;	
 	}
-	Familia::Familia(string a, string b, string c){
+	/*Familia::Familia(string a, string b, string c){
 		this->Jefe = a;
 		this->Lema = b;
 		this->AnimalEmb = c;
-	}
-	Familia::~Familia(){
+	}*/
+	/*Familia::~Familia(){
 
-	}
+	}*/

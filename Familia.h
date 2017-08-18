@@ -6,6 +6,8 @@ class Familia {
 		string Jefe;
 		string Lema;
 		string AnimalEmb;
+		//Familia(string, string, string);
+		//~Familia();
 	private:
 		string getJefe();
 		string getLema();
@@ -13,6 +15,5 @@ class Familia {
 		void setJefe(string);
 		void setLema(string);
 		void setAnimalEmb(string);
-		Familia(string, string, string);
-		~Familia();
+		
 };
