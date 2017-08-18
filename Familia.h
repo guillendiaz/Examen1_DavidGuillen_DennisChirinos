@@ -13,6 +13,5 @@ class Familia {
 		void setJefe(string);
 		void setLema(string);
 		void setAnimalEmb(string);
-		Familia(string, string, string);
-		~Familia();
+		
 };
