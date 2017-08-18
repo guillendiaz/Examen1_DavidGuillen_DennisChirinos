@@ -1,22 +1,28 @@
-#pragma once
+#include "Starks.h"
 #include <string>
 #include "Familia.h"
-#include "PequeniaFamiliaReal.h"
+#include "PequeniaFamiliaNoble.h"
 #include <vector>
 using namespace std;
 
-class Starks : public Familia{
-	private:
-		int Lobos;
-		string Guerrero;
-		int Integrantes;
-		vector<PequeniaFamiliaReal*> vPFR;
-	public:
-		int getLobos();
-		string getGuerrero();
-		int getIntegrantes();
-		vector<PequeniaFamiliaReal*> getvPFR();
-		void setLobos(int);
-		void setGuerrero(string);
-		void setIntegrantes(int);
-};
+		int Starks::getLobos(){
+		return this->Lobos;
+		}
+		string Starks::getGuerrero(){
+		return this->Guerrero;
+		}
+		int Starks::getIntegrantes(){
+		return this->Integrantes;
+		}
+		vector<PequeniaFamiliaNoble*> Starks::getvPFR() {
+		return this->vPFR;
+		}
+		void Starks::setLobos(int a){
+		this->Lobos = a;
+		}
+		void Starks::setGuerrero(string a){
+		this->Guerrero = a;
+		}
+		void Starks::setIntegrantes(int a){
+		this->Integrantes = a;
+		}
