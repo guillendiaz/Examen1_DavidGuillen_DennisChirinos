@@ -5,7 +5,7 @@ class Dragones {
 	private:
 	string Nombre;
 	string Color;
-	int Tamaño;
+	int Tamanio;
 	int Distancia;
 	int Ataque;
 	int Defensa;
@@ -16,10 +16,10 @@ class Dragones {
 	int getAtaque();
 	int getDefensa();
 	int getDistancia();
-	int getTamaño();
+	int getTamanio();
 	void setNombre(string);
 	void setColor(string);
-	void setTamaño(int);
+	void setTamanio(int);
 	void setDistancia(int);	
 	void setAtaque(int);
 	void setDefensa(int);
