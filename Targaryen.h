@@ -12,6 +12,8 @@ class Targaryen : public Familia{
 		vector<Dothraki*> vDoth;
 		vector<Dragones*> vDrag;
 	public:
+		Targaryen();
+		Targaryen(int);
 		int getBarcos();
 		vector<Dothraki*> getDoth();
 		vector<Dragones*> getDrag();
