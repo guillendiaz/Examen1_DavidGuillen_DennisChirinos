@@ -6,6 +6,15 @@ Dothraki::Dothraki(){
 	
 }
 
+Dothraki::Dothraki(string pNombre, string pJefeBarbaro, string pNombreCaballo, string pColorCaballo, int pAtaque, int pDefensa ){
+	Nombre = pNombre;
+	JefeBarbaro = pJefeBarbaro;
+	NombreCaballo = pNombreCaballo;
+	ColorCaballo = pColorCaballo;
+	Ataque = pAtaque;
+	Defensa = pDefensa;
+}
+
 void Dothraki::setNombre(string pNombre){
 	this->Nombre = pNombre;
 }

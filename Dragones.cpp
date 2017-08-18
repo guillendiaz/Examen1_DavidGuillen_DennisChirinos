@@ -1,6 +1,17 @@
 #include <string>
 #include "Dragones.h"
 using namespace std;
+	Dragones::Dragones(){
+
+	}
+	Dragones::Dragones(string pNombre, string pColor, int pTamanio, int pDistancia, int pAtaque, int pDefensa){
+		Nombre = pNOmbre;
+		Color = pColor;
+		Tamanio = pTamanio;
+		Distancia = pDistancia;
+		Ataque = pAtaque;
+		Defensa = pDefensa;
+	}
 	string Dragones::getNombre(){
 		return this->Nombre;	
 	}
