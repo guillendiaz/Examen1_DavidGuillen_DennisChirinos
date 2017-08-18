@@ -33,4 +33,11 @@ using namespace std;
 	void PequeniaFamiliaNoble::setDefensa(int a){
 		this->Defensa = a;
 	}
+	PequeniaFamiliaNoble::PequeniaFamiliaNoble(string a, string b, string c, int d, int e) {
+		setNombre(a);
+		setSimbolo(b);
+		setLema(c);
+		setAtaque(d);
+		setDefensa(e);
+	}
 	

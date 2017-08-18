@@ -12,7 +12,7 @@ class Dragones {
 	
 	public:
 		Dragones();
-		Dragones(string, string, int, int, int, int)
+		Dragones(string, string, int, int, int, int);
 		string getNombre();
 		string getColor();
 		int getAtaque();

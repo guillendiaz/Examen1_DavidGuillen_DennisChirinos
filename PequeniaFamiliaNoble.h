@@ -20,5 +20,6 @@ class PequeniaFamiliaNoble {
 	void setLema(string);
 	void setAtaque(int);
 	void setDefensa(int);
+	PequeniaFamiliaNoble(string, string, string, int, int);
 	
 };

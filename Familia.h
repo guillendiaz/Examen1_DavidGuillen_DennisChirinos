@@ -2,11 +2,11 @@
 #include <string>
 using namespace std;
 class Familia {
-	public:
+	private:
 		string Jefe;
 		string Lema;
 		string AnimalEmb;
-	private:
+	public:
 		string getJefe();
 		string getLema();
 		string getAnimalEmb();

@@ -5,7 +5,7 @@ using namespace std;
 
 	}
 	Dragones::Dragones(string pNombre, string pColor, int pTamanio, int pDistancia, int pAtaque, int pDefensa){
-		Nombre = pNOmbre;
+		Nombre = pNombre;
 		Color = pColor;
 		Tamanio = pTamanio;
 		Distancia = pDistancia;

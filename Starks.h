@@ -19,4 +19,5 @@ class Starks : public Familia{
 		void setLobos(int);
 		void setGuerrero(string);
 		void setIntegrantes(int);
+		Starks(string,string,string,int, string, int);
 };

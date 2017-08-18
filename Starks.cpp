@@ -4,12 +4,19 @@
 #include "PequeniaFamiliaNoble.h"
 #include <vector>
 using namespace std;
-
+		Starks::Starks(string Jefe, string Lema, string AnimalEmb, int a, string b, int c) {
+			setJefe(Jefe);
+			setLema(Lema);
+			setAnimalEmb(AnimalEmb);		
+			this->Lobos = a;
+			this->Guerrero = b;
+			this->Integrantes = c;
+		}
 		int Starks::getLobos(){
-		return this->Lobos;
+			return this->Lobos;
 		}
 		string Starks::getGuerrero(){
-		return this->Guerrero;
+			return this->Guerrero;
 		}
 		int Starks::getIntegrantes(){
 		return this->Integrantes;

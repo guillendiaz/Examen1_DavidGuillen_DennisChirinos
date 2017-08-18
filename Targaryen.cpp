@@ -18,10 +18,10 @@ int Targaryen::getBarcos(){
 	return this->Barcos;
 }
 vector<Dragones*> Targaryen::getDrag() {
-	return this->Drag;
+	return this->vDrag;
 }
 vector<Dothraki*> Targaryen::getDoth(){
-	return this->Doth;
+	return this->vDoth;
 }
 void Targaryen::setBarcos(int a){
 	this->Barcos = a;
